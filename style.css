@@ -1,0 +1,87 @@
+/* 1️⃣ Mengubah Font */
+body {
+    font-family: 'Verdana', 'Arial', sans-serif;
+    background-color: #f3f5ff; /* pastel lembut, bukan putih polos */
+    color: #2d2d2d; /* kontras dan mudah dibaca */
+    margin: 40px;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* 2️⃣ Styling Judul */
+h1 {
+    color: #5c6bc0; /* ungu pastel */
+    text-align: center;
+    border-bottom: 3px solid #9fa8da;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #3949ab; /* biru lembut */
+    border-left: 4px solid #9fa8da;
+    padding-left: 8px;
+    margin-top: 25px;
+}
+
+/* 3️⃣ Daftar (List) */
+ul, ol {
+    margin-left: 30px;
+    line-height: 1.8;
+}
+
+/* 4️⃣ Styling Gambar (Foto Profil) */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 160px; /* tidak terlalu besar */
+    border: 3px solid #9fa8da; /* border halus */
+    border-radius: 50%; /* bentuk bulat */
+    object-fit: cover;
+}
+
+/* 5️⃣ Tautan (Link) */
+a {
+    color: #7b1fa2;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ab47bc;
+}
+
+/* 6️⃣ Tombol (untuk Tantangan Bonus) */
+button {
+    background-color: #5c6bc0;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #3949ab;
+}
+
+/* 7️⃣ Section Layout */
+section {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+/* 8️⃣ Footer */
+footer {
+    text-align: center;
+    background-color: #9fa8da;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 30px;
+}

@@ -1,0 +1,3 @@
+document.getElementById("faktaBtn").addEventListener("click", function() {
+    alert("Fakta Menarik!!Saya pernah mengikuti Organisasi Forum Anak Daerah Kabupaten Hulu Sungai Utara dan Volunteer Green Generation Kalimantan Selatan. Saya berharap bisa masuk HMP-TI agar bisa bertemu dengan teman-teman baru dan bersama-sama agar dapat membanggakan Universitas dan HMP-TI sendiri. Serta, dapat menjadi contoh baik bagi orang-orang disekitar");
+});
